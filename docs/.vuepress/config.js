@@ -1,41 +1,83 @@
 module.exports = {
-  title: 'Website',
-  theme: 'yuu',
   base: '/Website/',
   repo: 'JanSchollaert/Website',
   docsDir: 'docs',
-  themeConfig: {
-    yuu: {
-      colorThemes: ['blue', 'red', 'purple'],
+  title: 'Website',
+  theme: 'yuu',
+
+  locales: {
+    '/' : {
+      lang: 'en-US',  
     },
-    editLinks: true,
-    sidebarDepth: 4,
-    lastUpdated: true,
-    nav: [
-      {
-        text: 'Home',
-        link: '/',
+    '/nl/' : {
+      lang: 'nl-NL',
+    },
+  },
+
+  themeConfig: {
+    locales: {
+      '/': {
+        yuu: {
+          colorThemes: ['blue', 'red', 'purple'],
+        },
+        nav: [
+          {
+            text: 'Home',
+            link: '/',
+          },
+        ],
+        sidebar: {
+          '/': [
+            {
+              title: 'Home',
+              collapsable: false,
+            },
+            {
+              title: 'About me',
+              children: [
+                'curriculum-vitae',
+              ],
+            },
+            {
+              title: 'Portfolio',
+              children: [
+                'beast-arena',
+              ],
+            },
+          ],
+        },
       },
-    ],
-    sidebar: {
-      '/': [
-        {
-          title: 'Home',
-          collapsable: false,
+      '/nl/': {
+        yuu: {
+          colorThemes: ['blue', 'red', 'purple'],
         },
-        {
-          title: 'About me',
-          children: [
-            'curriculum-vitae',
+        nav: [
+          {
+            text: 'Home',
+            link: '/nl/',
+          },
+        ],
+        sidebar: {
+          '/': [
+            {
+              title: 'Home nl',
+              collapsable: false,
+            },
+            {
+              title: 'About me nl',
+              children: [
+                'nl/curriculum-vitae',
+              ],
+            },
+            {
+              title: 'Portfolio nl',
+              children: [
+                'nl/beast-arena',
+              ],
+            },
           ],
+          },
         },
-        {
-          title: 'Portfolio',
-          children: [
-            'beast-arena',
-          ],
-        },
-      ],
     },
   },
 }
