@@ -2,7 +2,7 @@ module.exports = {
     title: 'OST Samenvatting',
     description: 'Samenvatting van het vak OST',
     theme: 'yuu',
-    base: '/ost-samenvatting/',
+    base: '/Website/',
     repo: 'JanSchollaert/Website',
     docsDir: 'docs',
     themeConfig: {
