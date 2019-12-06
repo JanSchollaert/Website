@@ -19,10 +19,10 @@ themeConfig: {
         collapsable: false,
       },
       {
-        title: 'Voorbeeld markdown',
-        children: [
-          '/more-text'
-        ]
+        title: 'Test',
+        // children: [
+        //   '/test'
+        // ]
       }
     ]
   }
