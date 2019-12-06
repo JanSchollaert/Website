@@ -1,25 +1,16 @@
-# Samenvatting voor OST 
-
-# Vak
-2 EC
-## Planning
-| Week 	| OS                                                       	| T                                                     	|
-|------	|----------------------------------------------------------	|-------------------------------------------------------	|
-| 1    	|  - Inleiding  -H1: ComputerSystemen -H2: Doel van een OS 	| - H1: Waarom multithreading                            	|
-| 2    	|                                                          	| - H3: Processen - H4: Threads, SMP                    	|
-| 3    	|                                                          	| - H5: Mutex en synchronisatie H6: Deadlock & Starvation 	|
-| 4    	| - H7: Memory management H8: Virtual memory                |                                                       	|
-| 5    	|                                                          	| - H9/H10: Scheduling                                    	|
-| 6    	| - H11: I/O H12: Bestandssystemen                          |                                                       	|
-|      	|                                                          	|                                                       	|
-
-
-- Schriftelijk gesloten boek tentamen met open vragen
-
-- Behandelen boek: “Operating Systems” van William Stallings
-
-## Hoofdvragen
-- Wat is Systeem software ?
-
-- Hoe is de architectuur van een computersysteem opgebouwd?
-
+---
+home: true
+heroImage: /default.png
+heroText: Jan Schollaert
+tagline: Everything about me.
+actionText: Get Started →
+actionLink: /curriculum-vitae
+features:
+- title: About me
+  details: I'm a student at Avans.
+- title: Curriculum vitae
+  details: Thing's I've accomplished.
+- title: Portfolio
+  details: Cool stuff I made.
+footer: Jan Schollaert | Website
+---

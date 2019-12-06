@@ -1,13 +1,12 @@
 module.exports = {
     title: 'Website',
-    description: 'test',
     theme: 'yuu',
-    base: '/Website/',
+    base: '/',
     repo: 'JanSchollaert/Website',
     docsDir: 'docs',
     themeConfig: {
       yuu: {
-        colorThemes: ['blue', 'red', 'purple'],
+        colorThemes: ['blue', 'red', 'purple']
       },
       editLinks: true,
       sidebarDepth: 4,
@@ -15,42 +14,28 @@ module.exports = {
       nav: [
         {
           text: 'Home',
-          link: '/',
+          link: '/'
         }
       ],
       sidebar: {
         '/': [
           {
             title: 'Home',
-            collapsable: false,
+            collapsable: false
           },
           {
-            title: 'Operating Systems',
-            collapsable: true,
+            title: 'About me',
             children: [
-              'operating-systems',
-              'ost-introduction',
-              'ost-os-overview',
-              'ost-processen',
-              'ost-threads',
-            ],
+              'curriculum-vitae'
+            ]
           },
           {
-            title: 'Voorbeeld markdown',
-            collapsable: false,
+            title: 'Portfolio',
             children: [
-              'more-text',
-            ],
+              'beast-arena'
+            ]
           }
-        ],
-      },
-    },
-    plugins: [
-      [
-        '@vuepress/google-analytics',
-        {
-          'ga': 'UA-88021255-2' // UA-00000000-0
-        }
-      ]
-    ]
+        ]
+      }
+    }
   }
