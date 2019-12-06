@@ -2,7 +2,7 @@
   "name": "blog",
   "version": "1.0.0",
   "description": "",
-  "repository": "https://github.com/JanSchollaert/Samenvatting.git",
+  "repository": "https://github.com/JanSchollaert/Website.git",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "docs:build": "vuepress build docs"
