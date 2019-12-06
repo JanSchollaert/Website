@@ -3,11 +3,11 @@ module.exports = {
     description: 'Samenvatting van het vak OST',
     theme: 'yuu',
     base: '/ost-samenvatting/',
-    repo: 'rubennaatje/ost-samenvatting',
+    repo: 'JanSchollaert/Website',
     docsDir: 'docs',
     themeConfig: {
       yuu: {
-        colorThemes: ['blue', 'red', 'purple'],
+        colorThemes: ['blue', 'red', 'purple']
       },
       editLinks: true,
       sidebarDepth: 4,
@@ -15,14 +15,14 @@ module.exports = {
       nav: [
         {
           text: 'Home',
-          link: '/',
+          link: '/'
         }
       ],
       sidebar: {
         '/': [
           {
             title: 'Home',
-            collapsable: false,
+            collapsable: false
           },
           {
             title: 'Operating Systems',
@@ -32,25 +32,17 @@ module.exports = {
               'ost-introduction',
               'ost-os-overview',
               'ost-processen',
-              'ost-threads',
-            ],
+              'ost-threads'
+            ]
           },
           {
             title: 'Voorbeeld markdown',
             collapsable: false,
             children: [
-              'more-text',
-            ],
+              'more-text'
+            ]
           }
-        ],
-      },
-    },
-    plugins: [
-      [
-        '@vuepress/google-analytics',
-        {
-          'ga': 'UA-88021255-2' // UA-00000000-0
-        }
-      ]
-    ]
+        ]
+      }
+    }
   }
