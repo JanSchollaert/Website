@@ -1,29 +1,56 @@
 module.exports = {
-title: 'Jan Schollaert Website',
-description: 'Website gemaakt door Jan Schollaert',
-theme: 'yuu',
-base: '/',
-repo: 'JanSchollaert/Website',
-docsDir: 'docs',
-themeConfig: {
-  yuu: {
-    colorThemes: ['blue', 'red', 'purple'],
-  },
-  nav: [
-    { text: 'Home', link: '/' }
-  ],
-  sidebar: [
-      {
-        title: 'Home',
-        path: '/',
-        collapsable: false,
+    title: 'OST Samenvatting',
+    description: 'Samenvatting van het vak OST',
+    theme: 'yuu',
+    base: '/ost-samenvatting/',
+    repo: 'rubennaatje/ost-samenvatting',
+    docsDir: 'docs',
+    themeConfig: {
+      yuu: {
+        colorThemes: ['blue', 'red', 'purple'],
       },
-      {
-        title: 'Test',
-        // children: [
-        //   '/test'
-        // ]
-      }
+      editLinks: true,
+      sidebarDepth: 4,
+      lastUpdated: true,
+      nav: [
+        {
+          text: 'Home',
+          link: '/',
+        }
+      ],
+      sidebar: {
+        '/': [
+          {
+            title: 'Home',
+            collapsable: false,
+          },
+          {
+            title: 'Operating Systems',
+            collapsable: true,
+            children: [
+              'operating-systems',
+              'ost-introduction',
+              'ost-os-overview',
+              'ost-processen',
+              'ost-threads',
+            ],
+          },
+          {
+            title: 'Voorbeeld markdown',
+            collapsable: false,
+            children: [
+              'more-text',
+            ],
+          }
+        ],
+      },
+    },
+    plugins: [
+      [
+        '@vuepress/google-analytics',
+        {
+          'ga': 'UA-88021255-2' // UA-00000000-0
+        }
+      ]
     ]
   }
-}
