@@ -1,7 +1,7 @@
 module.exports = {
     title: 'Website',
     theme: 'yuu',
-    base: '/',
+    base: '/Website/',
     repo: 'JanSchollaert/Website',
     docsDir: 'docs',
     themeConfig: {
