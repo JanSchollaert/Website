@@ -5,7 +5,7 @@
 ```
 Name            |   Jan Schollaert
 Address         |   Lopik, 3411GD
-Phone           |   0348-554025
+Phone number    |   0348-554025
 Date of birth   |   13 September 1995
 Email           |   jbschollaert@hotmail.com
 Drivers license |   A
@@ -17,7 +17,7 @@ Avans, University of Applied Sciences, Den Bosch    |   Bachelor, Software engin
 September 2017 - present                            |
 -----------------------------------------------------------------------------------
 MBO Utrecht, Utrecht                                |   MBO 4, Game developer
-September 2015 - Juli 2017                          |
+September 2015 - July 2017                          |
 ```
 
 ## Experience 
@@ -68,4 +68,8 @@ Design patterns	                        |	Intermediate
 Creational / Structural / Behavioral
 --------------------------------------------------------
 Github			                        |	Advanced
+--------------------------------------------------------
+Photoshop		                        |	Intermediate
+--------------------------------------------------------
+Sony vegas		                        |	Intermediate
 ```
