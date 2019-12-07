@@ -2,7 +2,7 @@ module.exports = {
   base: '/Website/',
   repo: 'JanSchollaert/Website',
   docsDir: 'docs',
-  title: 'Website',
+  title: 'Jan Schollaert',
   theme: 'yuu',
 
   locales: {
@@ -19,6 +19,8 @@ module.exports = {
       '/': {
         yuu: {
           colorThemes: ['blue', 'red', 'purple'],
+          disableThemeIgnore: true,
+          defaultDarkTheme: true,
         },
         nav: [
           {
@@ -28,10 +30,6 @@ module.exports = {
         ],
         sidebar: {
           '/': [
-            {
-              title: 'Home',
-              collapsable: false,
-            },
             {
               title: 'About me',
               children: [
@@ -51,6 +49,8 @@ module.exports = {
       '/nl/': {
         yuu: {
           colorThemes: ['blue', 'red', 'purple'],
+          disableThemeIgnore: true,
+          defaultDarkTheme: true,
         },
         nav: [
           {
@@ -60,10 +60,6 @@ module.exports = {
         ],
         sidebar: {
           '/': [
-            {
-              title: 'Home',
-              collapsable: false,
-            },
             {
               title: 'Over mij',
               children: [
