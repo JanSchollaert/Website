@@ -1,8 +1,8 @@
 module.exports = {
-  base: '/',
+  base: '/Website/',
   repo: 'JanSchollaert/Website',
   docsDir: 'docs',
-  title: 'Jan Schollaert',
+  title: 'Website',
   theme: 'yuu',
 
   locales: {
@@ -28,6 +28,10 @@ module.exports = {
         ],
         sidebar: {
           '/': [
+            {
+              title: 'Home',
+              collapsable: false,
+            },
             {
               title: 'About me',
               children: [
@@ -55,6 +59,10 @@ module.exports = {
         ],
         sidebar: {
           '/': [
+            {
+              title: 'Home nl',
+              collapsable: false,
+            },
             {
               title: 'About me nl',
               children: [
