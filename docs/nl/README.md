@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /default.png
+heroImage: /me.jpg
 heroText: Jan Schollaert
 tagline: Alles over mij
 actionText: Begin →

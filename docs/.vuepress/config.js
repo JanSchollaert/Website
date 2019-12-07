@@ -42,6 +42,7 @@ module.exports = {
               title: 'Portfolio',
               children: [
                 'beast-arena',
+                'jumping-jan',
               ],
             },
           ],
@@ -60,19 +61,20 @@ module.exports = {
         sidebar: {
           '/': [
             {
-              title: 'Home nl',
+              title: 'Home',
               collapsable: false,
             },
             {
-              title: 'About me nl',
+              title: 'Over mij',
               children: [
                 'nl/curriculum-vitae',
               ],
             },
             {
-              title: 'Portfolio nl',
+              title: 'Portfolio',
               children: [
                 'nl/beast-arena',
+                'nl/jumping-jan',
               ],
             },
           ],

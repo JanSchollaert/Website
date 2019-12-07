@@ -17,7 +17,7 @@ Avans, Hogeschool, Den Bosch        |   Bachelor, Software engineer
 September 2017 - heden              |
 -------------------------------------------------------------------
 MBO Utrecht, Utrecht                |   MBO 4, Game developer
-September 2015 - Juli 2017          
+September 2015 - Juli 2017
 ```
 
 ## Ervaring 
