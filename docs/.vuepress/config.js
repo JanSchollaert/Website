@@ -1,5 +1,5 @@
 module.exports = {
-  base: '/',
+  base: '/Website/',
   repo: 'JanSchollaert/Website',
   docsDir: 'docs',
   title: 'Jan Schollaert',
