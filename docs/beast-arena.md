@@ -1,6 +1,3 @@
-::: theorem
-Test
+# Beast Arena
 
-::: tip
-Tip container of `@vuepress/theme-default`
-:::
+WIP

@@ -10,6 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@vuepress/plugin-clean-urls": "^1.0.0-alpha.40",
+    "@vuepress/plugin-container": "^1.0.0-alpha.41",
     "gray-matter": "^4.0.2",
     "vuepress-plugin-clean-urls": "^1.1.1",
     "vuepress-plugin-container": "^2.1.2",
