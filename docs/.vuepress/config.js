@@ -86,12 +86,6 @@ module.exports = {
         indexSuffix: '/',
         notFoundPath: '/404.html',
       },
-      'vuepress-plugin-container',
-      {
-        type: 'theorem',
-        before: info => `<div class="theorem"><p class="title">${info}</p>`,
-        after: '</div>',
-      },
     ],
   ],
 }
