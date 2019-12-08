@@ -2,15 +2,15 @@
 home: true
 heroImage: /mesantahat.png
 heroText: Jan Schollaert
-tagline: Everything about me
-actionText: Get Started →
+tagline: Alles over mij
+actionText: Begin →
 actionLink: /curriculum-vitae
 features:
-- title: About me
-  details: I'm a student at Avans.
+- title: Over mij
+  details: Ik ben een student op Avans.
 - title: Curriculum vitae
-  details: Thing's I've accomplished.
+  details: Dingen die ik heb gedaan.
 - title: Portfolio
-  details: Cool stuff I made.
+  details: Dingen die ik heb gemaakt.
 footer: Jan Schollaert | Website
 ---
