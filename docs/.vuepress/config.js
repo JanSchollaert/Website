@@ -1,4 +1,29 @@
 module.exports = {
+  plugins: [
+    [
+      'vuepress-plugin-clean-urls',
+      {
+        normalSuffix: '/',
+        indexSuffix: '/',
+        notFoundPath: '/404.html',
+      },
+    ],
+    [
+      'vuepress-plugin-container',
+      {
+        type: 'right',
+        defaultTitle: '',
+      },
+    ],
+    [
+      'vuepress-plugin-container',
+      {
+        type: 'theorem',
+        before: info => `<div class="theorem"><p class="title">${info}</p>`,
+        after: '</div>',
+      },
+    ],
+  ],
   base: '/Website/',
   repo: 'JanSchollaert/Website',
   docsDir: 'docs',
@@ -78,14 +103,4 @@ module.exports = {
         },
     },
   },
-  plugins: [
-    [
-      'vuepress-plugin-clean-urls',
-      {
-        normalSuffix: '/',
-        indexSuffix: '/',
-        notFoundPath: '/404.html',
-      },
-    ],
-  ],
 }
