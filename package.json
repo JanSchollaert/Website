@@ -11,6 +11,8 @@
   "license": "ISC",
   "dependencies": {
     "gray-matter": "^4.0.2",
+    "vuepress-plugin-clean-urls": "^1.1.1",
+    "vuepress-plugin-container": "^2.1.2",
     "vuepress-theme-yuu": "^2.2.0"
   },
   "devDependencies": {

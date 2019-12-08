@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /me.jpg
+heroImage: /mesantahat.png
 heroText: Jan Schollaert
 tagline: Everything about me
 actionText: Get Started →
